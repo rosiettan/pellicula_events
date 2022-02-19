@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/events.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Noto+Serif&family=Roboto+Condensed:wght@300&family=The+Nautigal&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/2a236ea976.js"></script>
+    <title>Events</title>
+</head>
+<body>
+<div class="header">
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <p class="navbar-logo ml-4">Pellicula</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="page.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="login_page.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="next_container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="next_text">NEW & UPCOMING MOVIES</h3>
+        <br>
+        <div class="serial_slider">
+            <div class="slide_track2">
+                <div class="slide2">
+                    <img src='assets/images/upmov1.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov2.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov3.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov4.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov5.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov6.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov7.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov8.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov9.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/upmov10.jpg'/>
+                </div>
+            </div>
+        </div>
+    <br>
+</div>
+
+<div class="media_container">
+    <br>
+    <br>
+    <h1 class="main_title" ><div onmouseover="mOver(this)" onmouseout="mOut(this)">Premiers of 2022</div></h1>
+   <br>
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "Only on Pellicula"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "Premiers of 2022"
+        }
+    </script>
+
+
+    <div class="spinner-grow text-info" style="margin-left:40px"></div>
+    <div class="spinner-grow text-info" style="margin-left:40px"></div>
+    <div class="spinner-grow text-info" style="margin-left:40px"></div>
+    <br>
+    <br>
+    <br>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Morbius')">Morbius</button>
+        <button class="tablinks" onclick="openCity(event, 'Avatar 2')">Avatar 2</button>
+        <button class="tablinks" onclick="openCity(event, 'Doctor Strange in MULTIVERSE OF MADNESS')">Doctor Strange in MULTIVERSE OF MADNESS</button>
+        <button class="tablinks" onclick="openCity(event, 'Uncharted')">Uncharted</button>
+        <button class="tablinks" onclick="openCity(event, 'Jurassic Park 3')">Jurassic Park 3</button>
+        <button class="tablinks" onclick="openCity(event, 'The lost city')">The lost city</button>
+        <button class="tablinks" onclick="openCity(event, 'Moonfall')">Moonfall</button>
+        <button class="tablinks" onclick="openCity(event, 'Gangubai Kathiawadi')">Gangubai Kathiawadi</button>
+        <button class="tablinks" onclick="openCity(event, 'Minions the rise of gru')">Minions the rise of gru</button>
+        <button class="tablinks" onclick="openCity(event, 'Sonic the hedgehog 2')">Sonic the hedgehog 2</button>
+    </div>
+
+    <div id="Morbius" class="tabcontent">
+        <h3>Morbius</h3>
+        <p>24 march 2022</p>
+        <p id="demo"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (19500 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Avatar 2" class="tabcontent">
+        <h3>Avatar 2</h3>
+        <p>14 december 2022</p>
+        <p id="two"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (2285 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("two").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("two").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Doctor Strange in MULTIVERSE OF MADNESS" class="tabcontent">
+        <h3>Doctor Strange in MULTIVERSE OF MADNESS</h3>
+        <p>5 may 2022</p>
+        <p id="three"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (8900 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("three").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("three").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Uncharted" class="tabcontent">
+        <h3>Uncharted</h3>
+        <p>18 february 2022</p>
+        <p id="four"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (400000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("four").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("four").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Jurassic Park 3" class="tabcontent">
+        <h3>Jurassic Park 3</h3>
+        <p>10 june 2022</p>
+        <p id="five"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (6050 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("five").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("five").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="The lost city" class="tabcontent">
+        <h3>The lost city</h3>
+        <p>6 january 2022</p>
+        <p id="six"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (400000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("six").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("six").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Moonfall" class="tabcontent">
+        <h3>Moonfall</h3>
+        <p>7 january 2022</p>
+        <p id="seven"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (400000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("seven").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("seven").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Gangubai Kathiawadi" class="tabcontent">
+        <h3>Gangubai Kathiawadi</h3>
+        <p>18 february 2022</p>
+        <p id="eight"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (400000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("eight").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("eight").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Minions the rise of gru" class="tabcontent">
+        <h3>Minions the rise of gru</h3>
+        <p>1 july 2022</p>
+        <p id="nine"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (5100 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("nine").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("nine").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <div id="Sonic the hedgehog 2" class="tabcontent">
+        <h3>Sonic the hedgehog 2</h3>
+        <p>8 april 2022</p>
+        <p id="ten"></p>
+
+        <script>
+            var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+            // Update the count down every second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (13500 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("ten").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("ten").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <br>
+    <p style="margin-left: 30px; font-weight: bold; font-size: 20px; color: bisque;"> Tap to listen to the sound </p>
+    <audio src="assets/events.mp3" id="audio"></audio>
+    <div id="logo"></div>
+    <script>
+        var audio, context, analyser, src, array, logo;
+        logo = document.getElementById("logo").style;
+        audio = document.getElementById("audio");
+        window.onclick = function (){
+            if(!context){
+                preparation();
+            }if(audio.paused){
+                audio.play();
+                loop();
+            }else{
+                audio.pause();}
+        }
+        function preparation(){
+            context = new AudioContext();
+            analyser = context.createAnalyser();
+            src = context.createMediaElementSource(audio);
+            src.connect(analyser);
+            analyser.connect(context.destination);
+            loop();}
+        function loop(){
+            if(audio.pause){
+                window.requestAnimationFrame(loop);}
+            array = new Uint8Array(analyser.frequencyBinCount);
+            analyser.getByteFrequencyData(array);
+            logo.minHeight = (array[40])+"px";
+            logo.width = (array[40])+"px";}
+    </script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="rights">
+    <h6 class="copyright">
+        Copyright est.2021 &copy;Pellicula. Powered by Rosiettan Company. All Rights Reserved
+    </h6>
+</div>
+</body>
+</html>
